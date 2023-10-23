@@ -87,7 +87,7 @@ class DonHangController extends Controller
         if ($gioHang) {
             return view('client.checkout', compact('khachHang'));
         } else {
-            toastr()->error('Không có giỏ hàng thì làm sao mà thanh toán. Khùng à!');
+            toastr()->error('Không có giỏ hàng thì làm sao mà thanh toán!');
             return redirect('/');
         }
     }
@@ -96,7 +96,6 @@ class DonHangController extends Controller
     {
         // dd($request->all());
         $khachHang = Auth::guard('customer')->user();
-        // Xử lý hàng còn đủ hay không ở đầu giờ bữa sau. Khi não thông minh hơn
         $donHang   = DonHang::create([
             'ho_lot'            => $request->ho_lot,
             'ten_khach'         => $request->ten_khach,

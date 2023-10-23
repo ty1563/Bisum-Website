@@ -14,8 +14,8 @@
                             </div>
                             <div class="contact-details">
                                 <h2 class="contact-title">Mail Address</h2>
-                                <a class="contact-info" href="mailto:info@example.com">dzfullstack@gmail.com</a>
-                                <a class="contact-info" href="mailto:info2@example.com">quoclongdng@gmail.com</a>
+                                <a class="contact-info" href="mailto:info@example.com">nvtnvtalone15@gmail.com</a>
+                                <a class="contact-info" href="mailto:info2@example.com">nvtnvtalone15@gmail.com</a>
                             </div>
                         </div>
                     </div>
